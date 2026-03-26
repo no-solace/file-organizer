@@ -1,0 +1,4 @@
+dev\nosolace\file\organizer\FolderWatcher.class
+dev\nosolace\file\organizer\FileOrganizer.class
+dev\nosolace\file\organizer\FileEventHandler.class
+dev\nosolace\file\organizer\FolderManager.class
