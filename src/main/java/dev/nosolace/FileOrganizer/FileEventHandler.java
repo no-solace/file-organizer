@@ -1,4 +1,4 @@
-package dev.nosolace.file.organizer;
+package dev.nosolace.FileOrganizer.*;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,5 +21,12 @@ public class FileEventHandler {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public boolean isTempFile(Path path) {
+        String name = path.getFileName().toString().toLowerCase();
+        System.out.println("File name: " + name);
+        return name.endsWith(".crdownload")
+                || name.endsWith(".tmp")
+                || name.endsWith(".part");
     }
 }
