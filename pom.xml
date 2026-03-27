@@ -11,4 +11,12 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>dev.nosolace.file.organizer.FileOrganizer</exec.mainClass>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-framework-bom</artifactId>
+            <version>4.3.24.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
